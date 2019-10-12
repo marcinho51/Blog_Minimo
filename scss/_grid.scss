@@ -1,0 +1,33 @@
+.row {
+  display: flex;
+  flex-flow: wrap;
+  margin: -1rem 0 0 -1rem;
+}
+
+@for $i from 1 through $n {
+  .col-xs-#{$i} {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    width: ($i / $n) * 100%;
+  }
+}
+
+@for $i from 1 through $n {
+  @media (min-width: $screen-xs) {
+    .col-md-#{$i} {
+      margin-top: 1rem;
+      padding-left: 1rem;
+      width: ($i / $n) * 100%;
+    }
+  }
+}
+
+@for $i from 1 through $n {
+  @media (min-width: $screen-sm) {
+    .col-lg-#{$i} {
+      margin-top: 1rem;
+      padding-left: 1rem;
+      width: ($i / $n) * 100%;
+    }
+  }
+}
