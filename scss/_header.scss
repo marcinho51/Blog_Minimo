@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  .header__logo {
+    h1 {
+    }
+  }
+  .header__hamburger {
+    div {
+      width: 2rem;
+      height: 0.3rem;
+      // background-color: $color-black;
+      margin: 0.35rem 0;
+    }
+  }
+}
