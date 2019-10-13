@@ -1,0 +1,21 @@
+.introduction {
+  margin: 0 0.5rem;
+  @media (min-width: $md-width) {
+    margin: 0;
+  }
+  .introduction__post {
+    h5 {
+      color: $color-silver;
+      font-size: 0.7rem;
+      padding: 1rem 0;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 2rem;
+      padding: 0.8rem 0;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
