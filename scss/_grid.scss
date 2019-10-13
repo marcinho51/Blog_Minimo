@@ -13,7 +13,7 @@
 }
 
 @for $i from 1 through $n {
-  @media (min-width: $screen-xs) {
+  @media (min-width: $md-width) {
     .col-md-#{$i} {
       margin-top: 1rem;
       padding-left: 1rem;
@@ -23,7 +23,7 @@
 }
 
 @for $i from 1 through $n {
-  @media (min-width: $screen-sm) {
+  @media (min-width: $lg-width) {
     .col-lg-#{$i} {
       margin-top: 1rem;
       padding-left: 1rem;
