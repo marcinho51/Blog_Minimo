@@ -1,8 +1,6 @@
 .introduction {
-  margin: 0 0.5rem;
-  @media (min-width: $md-width) {
-    margin: 0;
-  }
+  margin: 0 0.5rem 2rem 0.5rem;
+
   .introduction__post {
     h5 {
       color: $color-silver;
@@ -15,6 +13,10 @@
       padding: 0.8rem 0;
     }
     p {
+      font-size: 1.4rem;
+      @media (min-width: $md-width) {
+        font-size: 1rem;
+      }
       text-align: justify;
     }
   }
