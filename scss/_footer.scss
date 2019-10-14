@@ -1,0 +1,30 @@
+footer {
+  background-color: $color-white-wrapper;
+  padding: 2rem 0;
+  .row {
+    justify-content: space-around;
+    .footer__privacy {
+      display: flex;
+      justify-content: center;
+
+      a {
+        color: $color-black;
+        text-decoration: none;
+        padding: 0 0.25rem;
+        span {
+        }
+      }
+    }
+    .footer__social-media {
+      display: flex;
+      justify-content: center;
+      span {
+        padding-right: 1rem;
+      }
+      a {
+        color: $color-black;
+        padding: 0 0.25rem;
+      }
+    }
+  }
+}
