@@ -20,6 +20,9 @@
         input {
           background-color: $color-white-wrapper;
           border: none;
+          &:focus {
+            outline: none;
+          }
         }
         button {
           background-color: $color-white-wrapper;
