@@ -10,7 +10,7 @@ header {
         color: $color-black;
         text-decoration: none;
         h1 {
-          font-size: 1rem;
+          font-size: 2rem;
           letter-spacing: 0.15rem;
           text-transform: uppercase;
         }
@@ -69,20 +69,17 @@ header {
         display: none;
         position: absolute;
         list-style-type: none;
-
         width: 2rem;
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
         a {
-          color: $color-white;
+          color: $color-black;
           font-weight: 700;
           text-decoration: none;
           text-transform: uppercase;
           transition: color 0.3s ease;
-          &:hover {
-            color: $color-gold;
-          }
+
           li {
             font-size: 0.8rem;
             padding: 0.5rem 0.8rem;
@@ -129,11 +126,17 @@ header {
             @media (min-width: $lg-width) {
               margin-right: 1.4rem;
             }
+
             li {
               color: $color-black;
               font-size: 1rem;
               font-weight: 300;
               text-transform: uppercase;
+              @media (min-width: $lg-width) {
+                &:hover {
+                  color: $color-gold;
+                }
+              }
             }
           }
         }
