@@ -1,4 +1,4 @@
-// mail input and button
+// sign-in input validator
 
 const mailInput = document.querySelector(".sign-up__form--input input");
 const mailButton = document.querySelector(".sign-up__form--input button");
@@ -22,6 +22,9 @@ const inputValidator = () => {
 };
 
 mailInput.addEventListener("input", inputValidator);
+
+// sign-in button validator
+
 let counter = 0; // counter of clicks
 const buttonValidator = () => {
   counter++;
